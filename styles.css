@@ -20,6 +20,7 @@ body {
     border: 1.5px solid white;
     font-size: 1em;      
     line-height: 1.2em;
+    overflow: auto;
 }
 
 .profile-image {
@@ -53,6 +54,7 @@ body {
     border: 1.5px solid white;
     margin-bottom: 15px;
     font-size: 1.1em;
+    overflow: auto;
 }
 
 .social-buttons {
@@ -84,6 +86,40 @@ body {
 }
 
 .github:hover, .email:hover {
+    background: #fff;
+}
+
+.social-buttons-profile {
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+    position: relative;
+    top: 290vh;     
+}
+
+.github-profile, .email-profile {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    background: rgba(9, 162, 243, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-profile img, .email-profile img {
+    width: 24px;
+    height: 24px;
+}
+
+.github-profile:hover, .email-profile:hover {
     background: #fff;
 }
 
@@ -150,16 +186,18 @@ section {
     width: 100%;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .whole {
-    background-color: rgba(49, 162, 243, 0.726);
+    background-color: rgba(49, 162, 243, 0.6);
     border-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     color: white;
+    margin-top: -5%;
 }
 
 footer {
@@ -231,4 +269,4 @@ a:active {
 .navbar-profile li a:hover { 
     background: #fff;
     color: #226cc1;
-}
+} 
