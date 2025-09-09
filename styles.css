@@ -133,6 +133,7 @@ body {
     gap: 25px; /* adds gaps between li for the buttons */
     list-style: none; /* erase dots before li */    
     margin: 0;
+    margin-top: 30px;
     padding: 0;
     justify-content: center;
     align-items: center; /* centers the li horizontally */
@@ -532,3 +533,75 @@ a:active {
 .return-button:hover a {
     color: #226cc1;
 }
+
+table {
+    border-collapse: collapse; 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color:#fff;
+    margin-top: 120px;
+}
+
+th, td { 
+    border: 1px solid rgb(255, 255, 255); 
+    padding: 5px;
+    background-color: rgba(9, 162, 243, 0.25);
+}
+
+th {
+    background-color: rgba(9, 162, 243, 0.25);
+    color: white;
+    text-align: left;
+}
+
+td:hover { 
+    background-color: #fff;
+    cursor: pointer; 
+    color: #226cc1;
+}
+
+.grade-input{
+    background-color: rgba(255, 255, 255, 0);
+    width: 97%;
+    color: #fff;
+}
+
+.grade-input:hover{
+    color: #226cc1;
+}
+
+.bar{
+    background: linear-gradient(90deg, rgba(9, 162, 243, 0.25), rgba(9, 162, 243, 0.7));
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 77.3%;
+    height: 5%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    color:#fff;
+    text-align: left;
+    padding-left: 40px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.nbsa{
+    position: absolute;
+    top: 97%;
+    width: 2px;
+    height: 70px;
+    left: 75%;
+    background: red;
+}
+
+/* .fill{
+    position: relative;
+    height: 70px;
+    width: var(--pct);
+    background: rgba(51, 220, 14, 0.5);
+    bottom: 2%;
+}
+*/
