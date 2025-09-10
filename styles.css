@@ -423,7 +423,7 @@ a:active {
     border: 1.5px solid white;
     font-size: 1em;      
     line-height: 1.8em;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
@@ -546,11 +546,11 @@ table {
 th, td { 
     border: 1px solid rgb(255, 255, 255); 
     padding: 5px;
-    background-color: rgba(9, 162, 243, 0.25);
+    background-color: rgba(49, 162, 243, 0.6);
 }
 
 th {
-    background-color: rgba(9, 162, 243, 0.25);
+    background-color: rgba(49, 162, 243, 0.6);
     color: white;
     text-align: left;
 }
@@ -605,3 +605,138 @@ td:hover {
     bottom: 2%;
 }
 */
+
+.insert-text{
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(49, 162, 243, 0.6);
+    width: 70%;
+    height: 40%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1.5px solid white;
+    font-size: 1em;      
+    line-height: 1.8em;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    justify-content: center;
+}
+
+.post-article{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.type-date{
+    margin-bottom: 20px;
+}
+
+.submit-button{
+    margin-left: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-button:hover{
+    background: #fff;
+    color:#226cc1;
+    cursor: pointer;
+}
+
+.cer{
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+}
+
+.ir{
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+}
+
+.learn{
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+}
+
+.myhz{
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.git-ict{
+    display: flex;     
+    justify-content: center;  
+    align-items: center;      
+    gap: 18px;                
+    margin-top: 15px;         
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.aside-menu{
+    position: fixed;        
+    top: 50%;               
+    left: -5px;           
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;              
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.aside-menu a{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    background: rgba(214, 44, 44, 0.35);
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.aside-menu a:hover{
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+}
+
+.cer img, .ir img, .learn img, .myhz img, .git-ict img{
+    width: 20px;
+    height: 20px;
+}
+
+.aside-menu li{
+    list-style: none;
+}
